@@ -1,14 +1,25 @@
 # JavaScript Playwright Project
 
-This repository contains basic Playwright examples and JavaScript practice files.
+This repository contains Playwright examples and basic JavaScript programs organized by chapter.
 
-Structure:
-- `Chapter_01_Basics/` — simple JS programs
-- `Chapter_02_Java_Concepts/` — placeholder files
+Project structure:
 
-How to use:
-1. Install Node.js (LTS)
-2. Run `npm install` to install dependencies (if you add any)
-3. Use Playwright commands to run tests once set up
+- Chapter_01_Basics/
+  - Helloworld.js
+  - Program2.js
+- Chapter_02_Java_Concepts/
+  - .gitkeep
 
-Contact: Repository mirrored from local workspace.
+Getting started:
+
+1. Install Node.js (v16+ recommended).
+2. Run `npm init` and install Playwright if you want to run browser tests.
+
+Optional commands:
+
+```
+npm install
+npx playwright install
+```
+
+License: personal project.
